@@ -1,0 +1,13 @@
+<h1>Hello RoR</h1>
+<p>This is Assignment 2 of RoR Training!</p>
+
+<p>
+    <% if !user_signed_in? %>
+    <%= link_to "Signup", new_user_registration_path %> | 
+    <%= link_to "Login", new_user_session_path %>
+    <% else %>
+    <%= link_to "Edit Profile", edit_user_registration_path %> | 
+    <%= link_to "Update Password", edit_user_password_path %> | 
+    <%= link_to "Signout", destroy_user_session_path, method: :delete %>
+    <% end %>
+</p>
