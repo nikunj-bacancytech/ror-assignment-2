@@ -20,3 +20,7 @@ This assignment will cover user authentication, file storage, action mailer and 
 Chat platform between logged in users.
 	
     2 users can chat each other when they are logged in.
+
+
+Dev Notes:
+    - TO check test email output: http://localhost:3000/rails/mailers/user_mailer/welcome_email.html
